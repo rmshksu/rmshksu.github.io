@@ -1,0 +1,127 @@
+/* Material Dark Theme */
+@media (prefers-color-scheme: dark) {
+  /* Force link colors for the dark theme */
+  div.quarto-post a {
+    color: #E0E0E0 !important; /* Accent color for links in dark mode */
+    text-decoration: none; /* Remove underline if you prefer */
+  }
+  
+  div.quarto-post a:hover {
+    color: #512888 !important; /* Highlight color for hover in dark mode */
+  }
+  
+  /* General background and text colors */
+  body {
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light primary text */
+  }
+  
+  /* Target the individual category items */
+  .listing-category {
+    color: #9EA0A1 !important; /* Gray text color */
+    background-color: black !important; /* Black background */
+    padding: 0.2em 0.4em; /* Optional: Add padding for visual appeal */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    font-weight: bold; /* Emphasize the text */
+    text-transform: uppercase; /* Optional: make text uppercase */
+    text-decoration: none; /* Remove underline if needed */
+  }
+
+  /* Optional: Hover effect for category items */
+  .listing-category:hover {
+    color: #E0E0E0 !important; /* Slightly lighter gray on hover */
+    background-color: #1E1E1E !important; /* Dark gray background on hover */
+  }
+  
+  /* Styling for category link with solid background */
+  a[href*="category="] {
+    background-color: #121212; /* Dark gray background for contrast */
+    color: #E0E0E0; /* White text for readability */
+    padding: 0.2em 0.4em; /* Padding to give it a badge-like appearance */
+    border-radius: 4px; /* Rounded corners for a cleaner look */
+    font-weight: bold; /* Emphasize the text */
+    text-transform: uppercase; /* Optional: make text uppercase */
+    text-decoration: none; /* Remove underline */
+  }
+
+  /* Hover effect */
+  a[href*="category="]:hover {
+    background-color: #555555; /* Slightly lighter background on hover */
+    color: #121212; /* Keep text white on hover */
+  }
+
+  /* Links */
+  a {
+    color: #512888; /* Accent color for links */
+  }
+  a:hover {
+    color: #FF79C6; /* Highlight color for hover */
+  }
+
+  /* Headers */
+  h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF; /* Bright headers */
+  }
+
+  /* Text elements */
+  p, li, span, div {
+    color: #E0E0E0; /* Primary text color */
+  }
+  .secondary-text {
+    color: #B0B0B0; /* Secondary text color */
+  }
+
+  /* Code blocks */
+  pre {
+    background-color: #1E1E1E; /* Surface color for code blocks */
+    color: #DCDCDC; /* Light code text */
+    border: 1px solid #333333; /* Border to separate code from the background */
+  }
+
+  /* Inline Code */
+  code {
+    background-color: #2e2e2e; /* Dark background for inline code */
+    color: #1E1E1E; /* White text for good contrast */
+    padding: 0.2em 0.4em; /* Padding for readability */
+    border-radius: 4px; /* Rounded corners */
+  }
+
+  /* Buttons */
+  button {
+    background-color: #333333; /* Dark button background */
+    color: #FFFFFF; /* Light text */
+    border: none;
+  }
+  button:hover {
+    background-color: #444444; /* Slightly lighter background on hover */
+  }
+
+  /* Blockquotes */
+  blockquote {
+    background-color: #1E1E1E; /* Surface color */
+    color: #C0C0C0; /* Light text for blockquotes */
+    border-left: 4px solid #512888; /* Accent color for border */
+    padding: 0.5em 1em;
+  }
+
+  /* Tables */
+  table {
+    background-color: #1E1E1E; /* Surface color for tables */
+    color: #FFFFFF; /* Light text */
+  }
+  th, td {
+    border: 1px solid #333333; /* Table borders */
+    padding: 0.5em;
+  }
+
+  /* Navbar & Footer */
+  .navbar, .footer {
+    background-color: #1A1A1A; /* Slightly lighter background for navbar */
+    color: #1E1E1E; /* Light text for navbar/footer */
+  }
+
+  /* Error Text */
+  .error {
+    color: #CF6679; /* Light red for error messages */
+  }
+}
