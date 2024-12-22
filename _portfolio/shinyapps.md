@@ -18,4 +18,4 @@ collection: portfolio
 
 ## Professional Projects
 
-[Dynamic Yield Prediction App](https://rmsholl.shinyapps.io/interactive-yield-app/)
+- [Dynamic Yield Prediction App](https://rmsholl.shinyapps.io/interactive-yield-app/)
