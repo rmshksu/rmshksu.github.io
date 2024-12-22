@@ -21,7 +21,7 @@ repository               : "rmshksu/rmshksu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profilepic.jpeg"
   name             : "Robert M. Sholl"
   pronouns         : # example: "she/her"  
   bio              : "Educator and Public Safety Researcher"
