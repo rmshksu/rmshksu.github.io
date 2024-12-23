@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! My name is Robert Sholl and I'm a Graduate Teaching Assistant and 2<sup>nd</sup> year Ph.D. student in Statistics at Kansas State University. My primary research focus is Stochastic Epidemiology, however I have a wide variety of other interests and skills, including (but not limited to):
+Welcome! My name is Robert Sholl, I'm a Graduate Teaching Assistant and 2<sup>nd</sup> year Ph.D. student in Statistics at Kansas State University. My primary research focus is Stochastic Epidemiology, however I have a wide variety of other interests and skills, including (but not limited to):
 
 - Wildlife Ecology
 - Plant Genetics
