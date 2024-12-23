@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "R<sup>2</sup>:Running Ragged"
+title: "R<sup>2</sup>: Running Ragged"
 permalink: /blog/
 author_profile: true
 ---
