@@ -15,6 +15,6 @@ Welcome! My name is Robert Sholl, I'm a Graduate Teaching Assistant and 2<sup>nd
 - Network Sciences/Graph Theory
 - Machine Learning and LLMs
 
-Throughout this website, you'll find my many of my academic resources including [Course Content], [My Personal Blog], [Git Repo], and much more. If you're seeking to collaborate, please reach out! I'm always open to new challenges and ideas.
+Throughout this website, you'll find many of my academic resources including [Course Content], [My Personal Blog], [Git Repo], and much more. If you're seeking to collaborate, please reach out! I'm always open to new challenges and ideas.
 
 
