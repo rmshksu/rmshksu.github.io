@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Statistics (STAT 225) Spring 2025"
+title: "Biometrics I (STAT 240) Spring 2025"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/225-spring25
@@ -8,3 +8,4 @@ date: 2025-01-31
 location: "Manhattan, KS, USA"
 ---
 
+[STAT 240 Course Website - Spring 2025](https://rmshksu.github.io/stat240_spring2025/about/)
