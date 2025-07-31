@@ -3,9 +3,9 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: false
+show_in_nav: false
 redirect_from:
   - /resume
-show_in_nav: false
 ---
 
 {% include base_path %}
