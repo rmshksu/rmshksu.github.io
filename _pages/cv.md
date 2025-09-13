@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Resume"
+permalink: /Resume/
 author_profile: false
 show_in_nav: false
 published: false
@@ -13,15 +13,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Statistics, Kansas State University, 2028 (expected)
+* M.S. in Statistics and Data Science, Kansas State University (Expected May 2026)
 * B.S. in Microbiology, Kansas State University, 2020
 
 Work experience
 ======
+KANSAS WATER INSTITUTE, Manhattan, KS
+GRADUATE RESEARCH FELLOW (July 2025-Present)
+* Primary quantitative researcher for joint projects with K-State and the Kansas Department of Agriculture
+* Acting statistical consultant for other graduate researchers through the Water Institute
+* Training with all major SAS products and interfacing directly with SAS corporate teams
+
+
 KSU DEPARTMENT OF STATISTICS, Manhattan, KS
 GRADUATE TEACHING ASSISTANT (August 2024-Present)
-* Educate 40+ students in Introductory Statistics topics as their sole instructor
+* Sole instructor for 3 classes of 40+ undergraduate students
 * Assist in the development of STAT 225 (Introduction to Statistics)
+* Single handledly overhauled STAT 240 and STAT 341 (Biometrics I & II)
+* Developed an open-source textbook for both STAT 240 and 341
 * Guest lecture for Graduate level statistics courses
 * Consult on student projects at both the Undergraduate and Graduate levels
 
@@ -60,14 +69,8 @@ GENERAL MANAGER/HEAD BARTENDER (June 2019—November 2020)
   
 Technical Skills
 ======
-* Advanced skills in R and Python
-* Proficient in the following Programming Languages:
-  * SAS
-  * bash
-  * SQL
-  * YAML
-  * Powershell
-  * Swyft
+* Advanced skills in R, Python, and SAS
+* Proficient with SQL and bash
 * Documentation Competencies:
   * LaTeX 
   * HTML/Pandoc Markdown
