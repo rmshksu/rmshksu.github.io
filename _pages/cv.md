@@ -6,7 +6,7 @@ author_profile: false
 show_in_nav: false
 published: false
 redirect_from:
-  - /resume
+  - /cv
 ---
 
 {% include base_path %}
