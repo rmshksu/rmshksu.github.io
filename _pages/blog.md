@@ -7,4 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-[Caveat Emptor](https://rmsho.quarto.pub/running-ragged-rsup2sup/)
+I maintain a blog for all of my personal projects. Most of them are programming and data science related, but sometimes an instrusive thought will demand a detailed effort. 
+
+Professionalism is swiftly left at the door. [Caveat Emptor.](https://runningragged.vercel.app/)

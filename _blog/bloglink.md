@@ -4,4 +4,4 @@ excerpt: "Personal Blog"
 collection: blog
 ---
 
-[Caveat Emptor](https://rmsho.quarto.pub/running-ragged-rsup2sup/)
+[Caveat Emptor](https://runningragged.vercel.app/)
