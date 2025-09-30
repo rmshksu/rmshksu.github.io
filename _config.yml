@@ -287,6 +287,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _queue
+  - scope:
+      path: ""
+      type: queue
+    values:
+      layout: queue
+      author_profile: true
+      share: true
 
 
 # Sass/SCSS

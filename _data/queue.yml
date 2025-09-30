@@ -1,0 +1,71 @@
+projects:
+  - code: E1139YHN8
+    #client_hint: 
+    status: "Not started"
+    queue: 2
+    #due: 
+    #notes: ""
+    data-group: Research
+  - code: R0505MKD4
+    #client_hint: 
+    status: "In progress"
+    queue: 1
+    #due: 
+    notes: "Model dev"
+    data-group: Development
+  - code: R9432LZB0
+    #client_hint: 
+    status: "Pending review"
+    queue: 1
+    #due: 
+    notes: "Pilots"
+    data-group: Pending Client
+  - code: X4041JQI8
+    #client_hint: 
+    status: "Not started"
+    queue: 5
+    #due: 
+    notes: "Standstill"
+    #data-group: Pending Client
+  - code: W3155LKJ0
+    #client_hint: 
+    status: "In progress"
+    queue: 2
+    #due: 
+    notes: "Re-org"
+    data-group: Research
+  - code: Z2667ZPG4
+    #client_hint: 
+    status: "Not started"
+    queue: 4
+    #due: 
+    notes: "Nov"
+    data-group: Pending Client
+  - code: M2603WUV3
+    #client_hint: 
+    status: "Not started"
+    queue: 1
+    #due: 
+    notes: "MH meeting"
+    data-group: Pending Client
+  - code: W7097JJD7
+    #client_hint: 
+    status: "In progress"
+    queue: 3
+    #due: 
+    notes: "AOV?"
+    data-group: Research
+  - code: J5577LSJ4
+    #client_hint: 
+    status: "In progress"
+    queue: 4
+    #due: 
+    notes: "Serialize"
+    data-group: Pending Data
+  - code: L1718EGH1
+    #client_hint: 
+    status: "Not started"
+    queue: 3
+    #due: 
+    notes: "Paperwork"
+    #data-group: Research

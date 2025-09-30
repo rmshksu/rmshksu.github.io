@@ -1,0 +1,214 @@
+---
+layout: default
+---
+
+<style>
+/* theme */
+:root {
+  color-scheme: light dark;
+
+  /* base surfaces & text */
+  --border: #e4e7ec;
+
+  /* hsla */
+  /* data-group colors */
+  --neon-cyan: 188 100% 45%;
+  --neon-lime: 95 100% 40%;
+  --neon-magenta: 295 100% 50%;
+  --neon-orange: 24 100% 52%;
+  --neon-violet: 262 100% 55%;
+  --neon-yellow: 54 100% 48%;
+  --neon-green: 120 100% 50%;
+  --neon-blue: 200 100% 50%;
+  --neon-pink: 330 100% 55%;
+  --neon-red: 0 100% 50%;
+  --neon-turquoise: 170 100% 50%;
+  --neon-chartreuse: 70 100% 55%;
+
+
+  /* transparencies */
+  --t-bg: .15;   /* chip/stripe background */
+  --t-brd: .35;  /* chip/stripe border */
+  --t-txt: .92;  /* chip text opacity */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border: #000000;
+  }
+}
+
+/* page & headings */
+.page__content { 
+    color: var(--text);
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.page__content h1 { letter-spacing:.2px; }
+
+/* grid layout */
+.queue-wrap{
+  display:grid;
+  gap:1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items:start;
+}
+
+/* columns */
+.queue-col{
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: clip;
+}
+
+.queue-col header{
+  display:flex; align-items:center; justify-content:space-between;
+  padding: .75rem 1rem;
+  font-weight: 650;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+
+/* optional subtle neon header stripe keyed by status */
+.queue-col[data-status="Not started"] header::after,
+.queue-col[data-status="In progress"] header::after,
+.queue-col[data-status="Complete (pending review)"] header::after{
+  content: "";
+  position: absolute; inset: 0 0 auto 0; height: 3px;
+  background: linear-gradient(90deg,
+    hsla(var(--neon-cyan), var(--t-bg)) 0%,
+    hsla(var(--neon-violet), var(--t-bg)) 100%
+  );
+}
+
+.queue-list{ padding: 1rem; display:grid; gap:.75rem; }
+.queue-empty{ opacity:.7; padding:.5rem 0 1rem; }
+
+/* cards */
+.queue-card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: .8rem 1rem;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.queue-card:hover{ transform: translateY(-1px); }
+.queue-card:focus-within{ outline: 2px solid transparent; border-color: hsla(var(--neon-cyan), .4); }
+
+.queue-top{
+  display:flex; justify-content:space-between; align-items:center; gap:.75rem;
+}
+.queue-code{ font-weight: 700; font-variant-numeric: tabular-nums; }
+.queue-rank{ font-weight: 800; font-variant-numeric: tabular-nums; opacity:.9; }
+
+.queue-meta{
+  margin-top:.5rem; display:flex; flex-wrap:wrap; gap:.4rem;
+}
+
+/* chips (group tags) */
+/* base chip */
+.queue-chip{
+  font-size:.85rem; line-height:1;
+  border-radius: 999px;
+  padding: .28rem .6rem;
+  border: 1px solid var(--border);
+  background: color-mix(in hsl, var(--card) 90%, hsla(0,0%,100%,0));
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* neon data-group */
+.queue-chip[data-group="EDA"]{
+  background: hsla(var(--neon-cyan), var(--t-bg));
+  border-color: hsla(var(--neon-cyan), var(--t-brd));
+  color: hsl(var(--neon-cyan) / var(--t-txt));
+}
+.queue-chip[data-group="Final Steps"]{
+  background: hsla(var(--neon-lime), var(--t-bg));
+  border-color: hsla(var(--neon-lime), var(--t-brd));
+  color: hsl(var(--neon-lime) / var(--t-txt));
+}
+.queue-chip[data-group="Development"]{
+  background: hsla(var(--neon-magenta), var(--t-bg));
+  border-color: hsla(var(--neon-magenta), var(--t-brd));
+  color: hsl(var(--neon-magenta) / var(--t-txt));
+}
+.queue-chip[data-group="Pending Data"]{
+  background: hsla(var(--neon-red), var(--t-bg));
+  border-color: hsla(var(--neon-red), var(--t-brd));
+  color: hsl(var(--neon-red) / var(--t-txt));
+}
+.queue-chip[data-group="Pending Client"]{
+  background: hsla(var(--neon-orange), var(--t-bg));
+  border-color: hsla(var(--neon-orange), var(--t-brd));
+  color: hsl(var(--neon-orange) / var(--t-txt));
+}
+.queue-chip[data-group="Research"]{
+  background: hsla(var(--neon-yellow), var(--t-bg));
+  border-color: hsla(var(--neon-yellow), var(--t-brd));
+  color: hsl(var(--neon-yellow) / var(--t-txt));
+}
+
+.queue-col header span{ opacity:.65; font-weight:500; }
+.queue-code, .queue-rank{ letter-spacing:.2px; }
+@media (prefers-reduced-motion: reduce){
+  .queue-card{ transition: none; }
+  .queue-card:hover{ transform:none; }
+}
+</style>
+
+
+<div class="page__content">
+  <h1>{{ page.title }}</h1>
+  <p class="themed-text"> If you've forgotten or can't find your project code feel free to email me. </p>
+
+  {% assign statuses = "Not started|In progress|Pending review" | split: "|" %}
+  <div class="queue-wrap">
+    {% for s in statuses %}
+      {% assign items = site.data.queue.projects | where: "status", s | sort: "queue" %}
+      <section class="queue-col">
+        <header>{{ s }} <span style="opacity:.6">({{ items | size }})</span></header>
+        <div class="queue-list">
+          {% if items.size == 0 %}
+            <div class="queue-empty">No items.</div>
+          {% endif %}
+
+          {% for p in items %}
+            {% assign n = p.queue | default: "" %}
+            {% capture suffix %}
+              {% case n %}
+              {% when 11 or 12 or 13 %}th
+              {% else %}
+                {% assign m = n | modulo: 10 %}
+                {% case m %}
+                  {% when 1 %}st
+                  {% when 2 %}nd
+                  {% when 3 %}rd
+                  {% else %}th
+                {% endcase %}
+              {% endcase %}
+            {% endcapture %}
+
+            <article class="queue-card">
+              <div class="queue-top">
+                <div class="queue-code">{{ p.code }}</div>
+                <div class="queue-rank">{% if n != "" %}{{ n }}{{ suffix | strip }}{% endif %}</div>
+              </div>
+               <div class="queue-meta">
+                {% if p['data-group'] %}
+                  <span class="queue-chip" data-group="{{ p['data-group'] }}">{{ p['data-group'] }}</span>
+                {% endif %}
+                {% if p.client_hint %}<span class="queue-chip">{{ p.client_hint }}</span>{% endif %}
+                {% if p.due %}<span class="queue-chip">Due {{ p.due }}</span>{% endif %}
+                {% if p.notes %}<span class="queue-chip">{{ p.notes }}</span>{% endif %}
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+</div>

@@ -20,6 +20,9 @@ main:
 
   - title: "Talks"
     url: /talks/
+
+  - title: "Queue"
+    url: /queue/
     
   #- title: "Guides"
     #url: /markdown/
