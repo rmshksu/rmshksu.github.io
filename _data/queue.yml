@@ -2,24 +2,24 @@ projects:
   - code: E1139YHN8
     #client_hint: 
     status: "Not started"
-    queue: 2
+    queue: 1
     #due: 
-    #notes: ""
-    data-group: Research
+    notes: "Xfer priors"
+    data-group: Pending Client
   - code: R0505MKD4
     #client_hint: 
     status: "In progress"
     queue: 1
     #due: 
-    notes: "Model dev"
-    data-group: Development
+    notes: "Data restructure"
+    data-group: Pending Data
   - code: R9432LZB0
     #client_hint: 
     status: "Pending review"
     queue: 1
     #due: 
-    notes: "Pilots"
-    data-group: Pending Client
+    notes: "R ports"
+    data-group: Development
   - code: X4041JQI8
     #client_hint: 
     status: "Not started"
@@ -44,7 +44,7 @@ projects:
   - code: M2603WUV3
     #client_hint: 
     status: "Not started"
-    queue: 1
+    queue: 2
     #due: 
     notes: "MH meeting"
     data-group: Pending Client
@@ -67,8 +67,8 @@ projects:
     status: "Not started"
     queue: 3
     #due: 
-    notes: "Paperwork"
-    #data-group: Research
+    notes: "Clause"
+    data-group: Pending Client
   - code: R9345EHJ8
     #client_hint: 
     status: "In progress"
