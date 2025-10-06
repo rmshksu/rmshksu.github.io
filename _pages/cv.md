@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* M.S. in Statistics and Data Science, Kansas State University, Expected May 2026
+* M.S. in Statistics and Data Science, Kansas State University, *expected* May 2026
 * B.S. in Microbiology, Kansas State University, 2020 
 
 Work experience
