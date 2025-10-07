@@ -30,7 +30,7 @@ projects:
   - code: W3155LKJ0
     #client_hint: 
     status: "In progress"
-    queue: 2
+    queue: 3
     #due: 
     notes: "Re-org"
     data-group: Research
@@ -51,14 +51,14 @@ projects:
   - code: W7097JJD7
     #client_hint: 
     status: "In progress"
-    queue: 3
+    queue: 4
     #due: 
     notes: "AOV?"
     data-group: Research
   - code: J5577LSJ4
     #client_hint: 
     status: "In progress"
-    queue: 4
+    queue: 5
     #due: 
     notes: "Serialize"
     data-group: Pending Data
@@ -72,7 +72,14 @@ projects:
   - code: R9345EHJ8
     #client_hint: 
     status: "In progress"
-    queue: 5
+    queue: 6
     #due: 
     notes: "Documentation"
     data-group: Research
+  - code: N7737XPO9
+    #client_hint: 
+    status: "In progress"
+    queue: 2
+    #due: 
+    notes: "Plots / in dev"
+    data-group: Pending Team
