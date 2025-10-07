@@ -9,9 +9,9 @@ projects:
   - code: R0505MKD4
     #client_hint: 
     status: "In progress"
-    queue: 1
+    queue: 2
     #due: 
-    notes: "Data restructure"
+    notes: "Coords"
     data-group: Pending Data
   - code: R9432LZB0
     #client_hint: 
@@ -79,7 +79,7 @@ projects:
   - code: N7737XPO9
     #client_hint: 
     status: "In progress"
-    queue: 2
+    queue: 1
     #due: 
-    notes: "Plots / in dev"
-    data-group: Pending Team
+    notes: "Methods"
+    data-group: Development
