@@ -9,14 +9,14 @@ projects:
   - code: R0505MKD4
     #client_hint: 
     status: "Pending review"
-    queue: 2
+    queue: 1
     #due: 
     notes: "Pres"
-    data-group: Development
+    data-group: Final Steps
   - code: R9432LZB0
     #client_hint: 
     status: "Pending review"
-    queue: 1
+    queue: 2
     #due: 
     notes: "R ports"
     data-group: Development
