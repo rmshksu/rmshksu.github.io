@@ -1,18 +1,18 @@
 projects:
   - code: E1139YHN8
     #client_hint: 
-    status: "Not started"
-    queue: 1
+    status: "In progress"
+    queue: 7
     #due: 
-    notes: "Xfer priors"
-    data-group: Pending Client
+    notes: "Offline pilots"
+    data-group: Development
   - code: R0505MKD4
     #client_hint: 
-    status: "In progress"
+    status: "Pending review"
     queue: 2
     #due: 
-    notes: "Coords"
-    data-group: Pending Data
+    notes: "Pres"
+    data-group: Development
   - code: R9432LZB0
     #client_hint: 
     status: "Pending review"
@@ -29,11 +29,11 @@ projects:
     #data-group: Pending Client
   - code: W3155LKJ0
     #client_hint: 
-    status: "In progress"
-    queue: 3
+    status: "Not started"
+    queue: 5
     #due: 
-    notes: "Re-org"
-    data-group: Research
+    notes: "Temp offline"
+    data-group: Pending Client
   - code: Z2667ZPG4
     #client_hint: 
     status: "Not started"
